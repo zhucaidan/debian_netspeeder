@@ -7,7 +7,7 @@
    Debian8 32 & 64 bit 
    Debian9 32 & 64 bit
 
-3、Use
+3、Install
    wget --no-check-certificate https://raw.githubusercontent.com/zhucaidan/debian_netspeeder/master/debian_netspeeder.sh
 
    chmod a+x debian_netspeeder.sh
@@ -23,3 +23,8 @@
 
    启动net-speeder（OPENVZ环境）
    nohup /root/net_speeder venet0 "ip" >/dev/null 2>&1 &
+   
+5、Double
+   再次运行即可开启四倍发包
+   nohup /root/net_speeder venet0 "ip" >/dev/null 2>&1 &
+   
