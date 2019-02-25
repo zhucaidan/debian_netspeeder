@@ -27,4 +27,3 @@
 5、Double
    再次运行即可开启四倍发包
    nohup /root/net_speeder venet0 "ip" >/dev/null 2>&1 &
-   
